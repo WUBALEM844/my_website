@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wubalem Gashaw | IT Student & Web Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Quicksand:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen">
+        <div class="loader-circle"></div>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Header & Navigation -->
+    <header id="header">
+        <div class="container header-container">
+            <a href="#" class="logo">
+                <i class="fas fa-code"></i><span>WB</span>
+            </a>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#resume" class="nav-link">Resume</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Scroll Progress Indicator -->
+    <div class="scroll-progress"></div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <div class="profile-container">
+                    <img src="D:\my_website\profile.jpg" alt="Wubalem Gashaw" class="profile-img" id="profileImg">
+                    <div class="profile-overlay">
+                        <i class="fas fa-expand-alt"></i>
+                    </div>
+                </div>
+                <h1 class="hero-title">Wubalem Gashaw</h1>
+                <div class="typing-container">
+                    <p class="tagline typing-text">IT Student & Web Developer</p>
+                </div>
+                <p class="hero-description">3rd year Information Technology student at Wolkite University. Passionate web developer, programmer, and Graphics designer with Premier Pro. I create functional, beautiful digital experiences that make an impact.</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        <i class="fas fa-eye"></i> View My Work
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <i class="fas fa-paper-plane"></i> Contact Me
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title" data-text="About Me">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Hello! I'm <strong>Wubalem Gashaw</strong>, a passionate Information Technology student at Wolkite University. I'm currently in my 3rd year and deeply interested in web development, programming, and creating engaging content for social media platforms.</p>
+                    <p>As an aspiring full-stack developer, I enjoy turning complex problems into simple, beautiful, and intuitive designs. When I'm not coding or studying, you'll find me creating content for Instagram, exploring new technologies, or working on personal projects that challenge my skills.</p>
+                    <div class="about-details">
+                        <div class="detail-item">
+                            <i class="fas fa-university"></i>
+                            <div>
+                                <h4>Education</h4>
+                                <p>BSc in Information Technology, Wolkite University (3rd Year)</p>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>South-west, Ethiopia</p>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-heart"></i>
+                            <div>
+                                <h4>Interests</h4>
+                                <p>Web Development, Programming, Video Editing, Graphics Design</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills" id="skills">
+                    <h3>My Technical Skills</h3>
+                    <div class="skills-container">
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>HTML5</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>CSS3</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>JavaScript</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>Java</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>Oracle DB</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>Premiere Pro</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2 class="section-title" data-text="My Projects">My Projects</h2>
+            <div class="projects-filters">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="web">Web Projects</button>
+                <button class="filter-btn" data-filter="java">Java Projects</button>
+                <button class="filter-btn" data-filter="db">Database</button>
+            </div>
+            <div class="projects-grid">
+                <div class="projects-item" data-category="db">
+                    <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Hotel Management System" class="projects-img">
+                    <div class="projects-overlay">
+                        <div class="projects-content">
+                            <h3>Hotel Management System</h3>
+                            <p>Oracle database system for hotel operations management</p>
+                            <a href="#" class="projects-link">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="projects-item" data-category="java">
+                    <img src="https://images.unsplash.com/photo-1596495577886-d920f1fb7238?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Scientific Calculator" class="projects-img">
+                    <div class="projects-overlay">
+                        <div class="projects-content">
+                            <h3>Scientific Calculator</h3>
+                            <p>Advanced Java calculator with mathematical functions</p>
+                            <a href="#" class="projects-link">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="projects-item" data-category="java">
+                    <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Student Management System" class="projects-img">
+                    <div class="projects-overlay">
+                        <div class="projects-content">
+                            <h3>Student Management System</h3>
+                            <p>Java application for academic planning and management</p>
+                            <a href="#" class="projects-link">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="projects-item" data-category="web">
+                    <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Personal Portfolio" class="projects-img">
+                    <div class="projects-overlay">
+                        <div class="projects-content">
+                            <h3>Personal Portfolio Website</h3>
+                            <p>Modern portfolio website with responsive design</p>
+                            <a href="#" class="projects-link">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section class="resume" id="resume">
+        <div class="container">
+            <h2 class="section-title" data-text="My Resume">My Resume</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">2022 - Present</div>
+                    <div class="timeline-content">
+                        <h3>BSc in Information Technology</h3>
+                        <p class="timeline-subtitle">Wolkite University</p>
+                        <p>Currently in my 3rd year, focusing on web development, database management, software engineering principles, and network security.</p>
+                        <p class="timeline-highlight"><strong>GPA:</strong> 3.0/4.0</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2023 - Present</div>
+                    <div class="timeline-content">
+                        <h3>Web Developer & Programmer</h3>
+                        <p class="timeline-subtitle">Freelance</p>
+                        <p>Developing responsive web applications, database systems, and desktop applications while continuously improving my technical skills and staying updated with latest technologies.</p>
+                        <p class="timeline-highlight"><strong>Technologies:</strong> HTML, CSS, JavaScript, Java, Oracle, React</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2022 - Present</div>
+                    <div class="timeline-content">
+                        <h3>Content Creator & Video Editor</h3>
+                        <p class="timeline-subtitle">Instagram & YouTube</p>
+                        <p>Creating engaging content about technology, programming, and student life, building a community of like-minded individuals. Editing videos using Adobe Premiere Pro.</p>
+                        <p class="timeline-highlight"><strong>Skills:</strong> Video Editing, Content Strategy, Social Media Management</p>
+                    </div>
+                </div>
+            </div>
+            <div class="download-resume">
+                <a href="#" class="btn btn-primary" id="downloadResumeBtn">
+                    <i class="fas fa-download"></i> Download Resume
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title" data-text="Get In Touch">Get In Touch</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <p>Feel free to reach out to me for collaboration, opportunities, or just to say hello! I'm always open to discussing new projects and ideas.</p>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h4>Email</h4>
+                            <p><a href="mailto:gashawwubalem04@gmail.com" class="contact-link">gashawwubalem04@gmail.com</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <h4>Phone</h4>
+                            <p><a href="tel:+251964494233" class="contact-link">+251 964 494 233</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Mizan-Aman, Ethiopia</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-share-alt"></i>
+                        </div>
+                        <div>
+                            <h4>Connect With Me</h4>
+                            <div class="social-links">
+                                <a href="https://instagram.com/yourusername" target="_blank" class="social-link instagram" title="Instagram">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="https://linkedin.com/in/yourusername" target="_blank" class="social-link linkedin" title="LinkedIn">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                                <a href="https://github.com/yourusername" target="_blank" class="social-link github" title="GitHub">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://t.me/yourusername" target="_blank" class="social-link telegram" title="Telegram">
+                                    <i class="fab fa-telegram"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Send Me a Message</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" class="form-control" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" class="form-control" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject *</label>
+                            <input type="text" id="subject" class="form-control" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" class="form-control" placeholder="Your Message..." rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <a href="#" class="footer-logo">Wubalem<span>Dev</span></a>
+                <p class="footer-tagline">Turning Ideas Into Digital Reality</p>
+                <div class="footer-social">
+                    <a href="https://instagram.com/yourusername" target="_blank" class="social-link instagram" title="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/yourusername" target="_blank" class="social-link linkedin" title="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://github.com/yourusername" target="_blank" class="social-link github" title="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://twitter.com/yourusername" target="_blank" class="social-link twitter" title="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+                <p class="copyright">&copy; 2024 Wubalem Gashaw. All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#home" class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- Image Modal -->
+    <div class="modal" id="imageModal">
+        <span class="modal-close">&times;</span>
+        <img class="modal-content" id="modalImage">
+        <div class="modal-caption"></div>
+    </div>
+
+    <!-- Theme Toggle Button -->
+    <button class="theme-toggle" id="themeToggle">
+        <i class="fas fa-moon"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
